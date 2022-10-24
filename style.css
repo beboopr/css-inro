@@ -1,0 +1,73 @@
+/* Normalizing our css */
+*, 
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+* {
+    color: green#833788#833788#833788#833788;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+body {
+    background-color: grey;
+}
+
+/*class selector*/
+#contact {
+    background-color: brown;
+}
+
+p {
+    color: blue;
+}
+
+/*class selector*/
+.myptags {
+    background-color: peru;
+}
+
+.my-width{
+    /* width: 100px; */
+}
+li {
+    color: pink;
+}
+
+.box {
+    color: white;
+    font-weight: 600;
+    background-color:aqua;
+    /* padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px; */
+    padding: 10px;
+    /* padding: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px; */
+    border: solid 3px black;
+    border-radius: 10px;
+    text-transform: capitalize;
+
+    margin-top: 10px 20px;
+   
+}
+
+footer {
+    background-color: tan;
+    border-radius: 30px;
+}
+/* child selectors*/
+footer>h3 {
+    background-color: red;
+}
+
+footer>ul>li {
+    color: #833788;
+}
